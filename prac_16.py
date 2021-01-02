@@ -27,5 +27,5 @@ target.close()
 
 print("And finally, we close it.")
 
-finalfile = open(filename)
+finalfile = open(filename, mode='r')
 print(finalfile.read())
